@@ -1,0 +1,21 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "bias": true,
+    "dropout_prob": null,
+    "head_type": "classification",
+    "label2id": {
+      "civil": 0,
+      "criminal": 1
+    },
+    "layers": 2,
+    "num_labels": 2,
+    "use_pooler": false
+  },
+  "hidden_size": 768,
+  "model_class": "XLMRobertaAdapterModel",
+  "model_name": "xlm-roberta-base",
+  "model_type": "xlm-roberta",
+  "name": "dummy",
+  "version": "0.1.0"
+}
